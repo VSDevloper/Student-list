@@ -1,0 +1,27 @@
+#submit_button
+{
+	margin-top: 20px; 
+	margin-bottom: 20px; 
+}
+#sort_button
+{
+	display: none;
+	margin-top: 20px; 
+	margin-bottom: 20px; 
+}
+
+input
+{
+	margin: 10px;
+}
+body{
+	background: linear-gradient(#FFDAB9,#FF0000,#00FF00
+	);
+}
+input{
+	border: 5px solid green;
+	height: 20px;
+}
+h3{
+	color: white;
+}
