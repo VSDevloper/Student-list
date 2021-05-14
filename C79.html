@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://127.0.0.1:5500/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>C79</title>
+    
+    <script type="text/javascript" async="" src="./C79_files/analytics.js.download"></script><script async="" src="./C79_files/js"></script><script src="./C79_files/main.js.download"></script>
+<link rel="stylesheet" type="text/css" href="./C79_files/style.css"></head>
+<body>
+<center>
+<h3 style="margin-top: 20px; margin-bottom: 20px; ">
+	List of the students in my class
+</h3>
+
+<div>
+<span>1</span>
+<input type="text" placeholder="Name of the Student" id="name_of_the_student_1">
+<br>
+
+<span>2</span>
+<input type="text" placeholder="Name of the Student" id="name_of_the_student_2">
+<br>
+
+<span>3</span>
+<input type="text" placeholder="Name of the Student" id="name_of_the_student_3">
+<br>
+
+<span>4</span>
+<input type="text" placeholder="Name of the Student" id="name_of_the_student_4">
+<br>
+<span>5</span>
+<input type="text" placeholder="Name of the Student" id="name_of_the_student_5">
+<br>
+<span>6</span>
+<input type="text" placeholder="Name of the Student" id="name_of_the_student_6">
+<br>
+<span>7</span>
+<input type="text" placeholder="Name of the Student" id="name_of_the_student_7">
+<br>
+<span>8</span>
+<input type="text" placeholder="Name of the Student" id="name_of_the_student_8">
+</div>
+
+<button onclick="submit()" id="submit_button">
+	Submit
+</button>
+
+<div id="display_name" style="font-weight: bold;">
+
+</div>
+
+<button onclick="sorting()" id="sort_button">
+	Sort
+</button>
+</center>
+
+<script>
+
+</script>
+<script async="" src="./C79_files/wd.js.download"></script><!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
